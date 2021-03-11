@@ -22,14 +22,13 @@ const About = () => {
                                 as much time as necessary to understand our clients' needs and
                                 expectations. Your house is the most significant investment you'll
                                 ever make, and each renovation or construction project has to bear
-                                that in mind. So, if you are considering CP & Son as your general
+                                that in mind. So, if you are considering Enviro Home Service as your general
                                 contractors, be sure that our company is customer-driven, detailed
                                 oriented and, most of all, always on time and budget. As general
                                 contractors in Ottawa, we can help you with virtually any renovation
                                 project. Whether you are planning home renovations, kitchen
-                                redesigns, finishing basements or transforming income properties, CP
-                                & Son provide professional general contracting services. Need help
-                                with smaller jobs? CP & Son also do handyman services, like kitchen
+                                redesigns, finishing basements or transforming income properties, Enviro Home Service provide professional general contracting services. Need help
+                                with smaller jobs? Enviro Home Service also do handyman services, like kitchen
                                 refacing, flooring installation and much more
                             </p>
                         </ShowMore>
@@ -37,7 +36,7 @@ const About = () => {
                     <div className="col-md">
                         <img
                             className="img-fluid"
-                            src="https://i.imgur.com/ngQPTuI.jpg"
+                            src="https://i.imgur.com/BoWrgRq.jpg"
                             alt="about img"
                         />
                     </div>

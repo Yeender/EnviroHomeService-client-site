@@ -24,11 +24,13 @@ const Contact = () => {
         <div className="contact-area d-flex align-items-center">
             <section className="container-xl">
                 <div className="row">
-                    <div className="col-md">
-                        <h2>ContactUs</h2>
-                        <h5> helpmeottawareno@gmail.com</h5>
+                    <div className="col-md text-center">
+                        <h2>Contact Us</h2>
+                        <h5> Enviroottawa@gmail.com</h5>
 
-                        <h6> 1+ (613)-861-1566</h6>
+                        {/* <h6> 1+ (613)-485-4117</h6> */}
+                        {/* <img src="https://i.imgur.com/xsIKyi0.png" alt="" /> */}
+                        <img className="Enviro" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.15752-9/159905222_980154072791686_7362051105737484981_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=ae9488&_nc_ohc=V34AoZVUMBUAX9AZMQB&_nc_ht=scontent-ort2-1.xx&oh=2bccc169500bc3458b38eec242751292&oe=606F8914" alt="" />
                     </div>
                     <div className="col-md">
                         <h2 className="contact-head_line">SEND US A MESSAGE</h2>

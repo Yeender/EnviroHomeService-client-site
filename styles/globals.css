@@ -181,10 +181,21 @@ $$$ renovations-area ended $$$ Contact Us-area style start
   background-color: rgba(255, 255, 255, 0);
   height: 250px !important;
   margin-bottom: 50px;
-  border: 5px solid #ca0547;
+  border: 5px solid #ca718f;
   background-color: #f3f3f3;
   padding: 5px;
+  border-radius: 30%;
 }
+
+/*shabnam CSSS here */
+.weDo_cards:hover {
+  background-color: rgb(235, 211, 235);
+  box-shadow: 5px 5px 10px;
+  transform: scale(0.9);
+  transition-delay: 5s ease-in-out;
+}
+
+/*shabnam CSSS here */
 
 .weDo_cards::before {
   content: "";
@@ -195,7 +206,7 @@ $$$ renovations-area ended $$$ Contact Us-area style start
   height: 10;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 28.8675px solid #ca0547;
+  border-bottom: 28.8675px solid #c0718c;
 }
 
 .weDo_cards img {
@@ -204,6 +215,7 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 }
 
 .weDo_cards h1 {
+  font-size: 20px;
   font-weight: bold;
   color: #ca0547;
   text-shadow: 2px 2px #ffffff;
@@ -253,6 +265,9 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
  %%%%%%%%%%%%%%%%%%%% home some renovations style area started %%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/*Shabnam CSS here */
+
 .someRenovations-area {
   /* .. */
 }
@@ -423,6 +438,13 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 /***************************************************$$
 $$$ renovations-area ended $$$ Contact Us-area style start
 ****************************************************$$*/
+
+/*Shabnam CSS here */
+.Enviro {
+  border-radius: 30%;
+}
+
+/*Shabnam CSS here */
 
 .contact-area {
   background-color: #e4e5e9;

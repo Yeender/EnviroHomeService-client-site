@@ -6,33 +6,33 @@ const book = [
     {
         id: 0,
         name: 'Kitchen Renovation',
-        img: 'https://i.imgur.com/kJvTuYb.jpg',
+        img: 'https://i.imgur.com/smK2dB1.jpg',
     },
     {
         id: 1,
         name: 'Living Room Renovation',
-        img: 'https://i.imgur.com/hDHv43p.jpg',
+        img: 'https://i.imgur.com/kMGgJ8h.jpg',
     },
     {
         id: 2,
         name: 'Bedroom Renovation',
-        img: 'https://i.imgur.com/kJF7joQ.jpg',
+        img: 'https://i.imgur.com/5EdHODZ.jpg',
     },
     {
         id: 3,
         name: 'Bathroom Renovation',
         img:
-            'https://i.imgur.com/scTHpKs.jpg',
+            'https://i.imgur.com/dyjDuLh.jpg',
     },
     {
         id: 4,
         name: 'Family Room',
-        img: 'https://i.imgur.com/bc5K5Tu.jpg',
+        img: 'https://i.imgur.com/fV9Bcj7.jpg',
     },
     {
         id: 5,
         name: 'Porches & Decks',
-        img: 'https://i.imgur.com/JdP4fwX.jpg',
+        img: 'https://i.imgur.com/JJIRHgq.jpg',
     },
     {
         id: 6,
@@ -47,7 +47,7 @@ const book = [
     {
         id: 8,
         name: 'Roof Top',
-        img: 'https://i.imgur.com/RkTGnqU.jpg',
+        img: 'https://i.imgur.com/X0Px34M.jpg',
     },
     {
         id: 9,
@@ -56,8 +56,8 @@ const book = [
     },
     {
         id: 10,
-        name: 'Mold Removal & Treatment',
-        img: 'https://i.imgur.com/NpOiyM9.jpg',
+        name: 'Attic Insulation',
+        img: 'https://i.imgur.com/8w1IfQM.jpg',
     },
 ];
 

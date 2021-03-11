@@ -8,31 +8,31 @@ const WeBuildForYou = () => (
                 <div className="col">
                     <div className="weDo_cards card">
                         <img className="img-fluid" src="https://i.imgur.com/8IcPKnR.png" alt="" />
-                        <h1>KITCHENS</h1>
+                        <h1>KITCHEN</h1>
                     </div>
                 </div>
                 <div className="col">
                     <div className="weDo_cards card">
                         <img src="https://i.imgur.com/xsIKyi0.png" alt="" />
-                        <h1>BATHROOMS</h1>
+                        <h1>BATHROOM</h1>
                     </div>
                 </div>
                 <div className="col">
                     <div className="weDo_cards card">
                         <img src="https://i.imgur.com/5oGRjV0.png" alt="" />
-                        <h1>BASEMENTS</h1>
+                        <h1>ROOF INSTALLATION</h1>
                     </div>
                 </div>
                 <div className="col">
                     <div className="weDo_cards card">
                         <img src="https://i.imgur.com/Q1sjhjH.png" alt="" />
-                        <h1>COMMERCIAL</h1>
+                        <h1>ATTIC INSULATION</h1>
                     </div>
                 </div>
                 <div className="col">
                     <div className="weDo_cards card">
                         <img src="https://i.imgur.com/0Xrc9xk.png" alt="" />
-                        <h1>RENOVATIONS</h1>
+                        <h1>WINDOWS & DOORS</h1>
                     </div>
                 </div>
             </div>
