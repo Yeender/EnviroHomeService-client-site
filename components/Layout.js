@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
                     crossOrigin="anonymous"
                 />
             </Head>
-            <Navbar/>
+            <Navbar />
 
             <BookingContext.Provider value={[bookingData, setBookingData]}>
                 {children}

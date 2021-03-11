@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 import Link from 'next/link';
 import { useContext } from 'react';
 import { BookingContext } from '../Layout';
@@ -22,8 +22,7 @@ const book = [
     {
         id: 3,
         name: 'Bathroom Renovation',
-        img:
-            'https://i.imgur.com/scTHpKs.jpg',
+        img: 'https://i.imgur.com/scTHpKs.jpg',
     },
     {
         id: 4,
@@ -71,11 +70,10 @@ const BookOnline = () => {
     };
 
     const bookingList = book.map((booking) => (
-
         <div key={booking.id} className="col">
             <div className="card bookServiceCards">
                 <Image
-                    alt={`Renovations img`}
+                    alt="Renovations img"
                     src={booking.img}
                     layout="responsive"
                     width={700}
@@ -99,28 +97,25 @@ const BookOnline = () => {
                 .card-title {
                     font-size: 20px !important;
                     font-weight: bold !important;
-                  }
-                  
-                  hr {
+                }
+
+                hr {
                     background-color: #fff;
-                  }
-                  
-                  button {
+                }
+
+                button {
                     border: none;
                     padding: 5px;
                     width: 100%;
                     font-weight: bold;
                     background-color: #efefef;
                     border-radius: 3px;
-                  }
-                  button:hover{
-                    background:#EFBA8E;
-                  }
-                  
+                }
+                button:hover {
+                    background: #efba8e;
+                }
             `}</style>
-
         </div>
-
     ));
 
     return (
@@ -128,8 +123,6 @@ const BookOnline = () => {
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
                 {bookingList}
             </div>
-
-
         </div>
     );
 };

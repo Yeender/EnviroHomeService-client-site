@@ -4,23 +4,21 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        console.log(e.target)
-        emailjs
-            .sendForm('service', 'template', e.target, 'user')
-            .then(
-                (result) => {
-                    if (result) {
-                        alert('✅Your message has been sent successfully✅');
-                    }
-                    console.log(result.text);
-                },
-                (error) => {
-                    if (error) {
-                        alert('⚠Sorry, your message could not be sent. Please try again🔄');
-                    }
-                    console.log(error.text);
+        console.log(e.target);
+        emailjs.sendForm('service', 'template', e.target, 'user').then(
+            (result) => {
+                if (result) {
+                    alert('✅Your message has been sent successfully✅');
                 }
-            );
+                console.log(result.text);
+            },
+            (error) => {
+                if (error) {
+                    alert('⚠Sorry, your message could not be sent. Please try again🔄');
+                }
+                console.log(error.text);
+            }
+        );
     };
     return (
         <div className="contact-area d-flex align-items-center">

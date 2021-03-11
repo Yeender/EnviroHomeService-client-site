@@ -86,11 +86,11 @@ header {
 .header-contents h2 {
   font-size: 50px;
   font-weight: 900;
-  color: rgb(68, 202, 5);
+  color: rgb(202, 5, 71);
   text-shadow: 2px 2px rgb(255, 255, 255);
 }
 
-.header-contents button {
+.header-contentsButton {
   background-color: red;
   padding: 10px 20px;
   font-weight: 900;
@@ -112,11 +112,8 @@ $$$ header-area ended $$$ about style start
   padding: 50px 0px;
 }
 
-.about-area h2 {
-  border-bottom: 5px solid red;
-  width: 70%;
-  border-radius: 10%;
-}
+/* .about-area h2 {
+} */
 
 @media (max-width: 767px) {
   .about-area {

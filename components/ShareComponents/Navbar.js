@@ -49,12 +49,9 @@ const Navbar = ({ background }) => (
                         <Link href="/contactUs">
                             <a className="nav-link">Contact Us</a>
                         </Link>
-                        
                     </li>
                 </ul>
-                
             </div>
-            
         </nav>
         {/* <span className="navNumber">613-861-1566 </span> */}
     </div>
