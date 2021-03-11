@@ -2,8 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +11,327 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/***************************************************$$
+$$$$$$$$ Navbar area style start
+****************************************************$$*/
+/* logo style here */
+
+.logo {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+/* ******************** */
+
+.navbar {
+  height: auto !important;
+  box-shadow: 0 3px 2px -2px rgb(88, 87, 87);
+}
+
+/* .navNumber {
+  z-index: 3;
+  position: relative;
+  top: -30px;
+  right: 10px;
+  font-weight: bold;
+  color: black;
+  background-color: rgba(255, 255, 255, 0);
+  float: right;
+} */
+
+.nav-link {
+  color: #fff !important;
+  padding: 0px 20px !important;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  font-size: 25px;
+}
+
+@media (max-width: 991px) {
+  .logo {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+  }
+  .nav-item {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #fff;
+  }
+}
+/* 
+shaker bhai code */
+/* @media only screen and (max-width: 62em) {
+  .navbar-bg {
+    padding: 20px 0px;
+  }
+} */
+/***************************************************$$
+$$$ Navbar ended $$$ header-area style start
+****************************************************$$*/
+/* 
+. 
+. 
+. 
+ */
+
+/***************************************************$$
+$$$ header-area ended $$$ about style start
+****************************************************$$*/
+.about-area {
+  height: 650px;
+  padding: 50px 0px;
+}
+
+.about-area h2 {
+  border-bottom: 5px solid red;
+  width: 70%;
+  border-radius: 10%;
+}
+
+@media (max-width: 767px) {
+  .about-area {
+    height: auto;
+    text-align: center;
+  }
+  .about-area h2 {
+    width: auto;
+  }
+}
+
+/***************************************************$$
+$$$ renovations-area ended $$$ Contact Us-area style start
+****************************************************$$*/
+.bookServiceCards {
+  border: 2px solid #ffff;
+  background-color: #008037;
+  color: #fff;
+}
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%% router=  bookings_checkout_calendar style area start %%%%%%%%%%%%%%%%%%%%%%%%*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.checkout_calendar_area {
+  padding: 15px 0px;
+}
+
+.time-cards {
+  padding: 7px;
+  width: 100%;
+  border: 1px solid rgb(168, 180, 179);
+  margin: 5px 0px;
+  transition: 0.4s;
+  background-color: #00c756;
+  font-weight: bold;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.time-cards:hover {
+  border: 1px solid rgb(100, 94, 94);
+  background-color: #eb6167;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 0px 20px 0px 20px;
+}
+
+.time-cards:focus {
+  background-color: #006edc;
+  color: #fff;
+  border-radius: 0px 20px 0px 20px;
+}
+
+.time-SundayOff {
+  padding: 7px;
+  width: 100%;
+  border: 1px solid red;
+  margin: 5px 0px;
+  transition: 0.4s;
+  background-color: #684545;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.booking-card {
+  border: 5px solid rgb(117, 116, 116);
+  padding: 20px;
+  position: fixed;
+  width: 300px;
+  background-color: #03ad4d;
+  color: #ffffff;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.booking-card h4 {
+  font-weight: 400;
+}
+
+.booking-card h5 {
+  font-weight: 500;
+  margin: 20px 0px;
+}
+
+.booking-card hr {
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.booking-card p {
+  font-size: 17px;
+}
+
+.booking-card button {
+  width: 100%;
+  padding: 7px 0px;
+  font-weight: 900;
+  background-color: #008064;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 767px) {
+  .checkout_calendar_area {
+    height: auto;
+  }
+  .booking-card {
+    position: static;
+    width: auto;
+    text-align: center;
+  }
+}
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%% router=  bookings_checkout_form style area start %%%%%%%%%%%%%%%%%%%%%%%%*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.checkout-form-area {
+  /* background-color: #7c7c7c; */
+}
+
+/* .form-control:focus {
+  background-color: #686767;
+} */
+
+/*BOOKING_Checkout_form style here */
+/* .booking-checkout-form {
+  box-shadow: 5px 5px 10px;
+  margin-top: 20px;
+} */
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/***************************************************$$
+$$$ renovations-area ended $$$ Contact Us-area style start
+****************************************************$$*/
+
+.contact-area {
+  background-color: #66727e;
+}
+
+.input-field input {
+  color: #fff;
+}
+.input-field label {
+  color: #fff;
+}
+
+/* .input-field textarea {
+  color: #fff;
+} */
+
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold;
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+
+.contact-submit-btn {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.205);
+  color: #fff;
+}
+
+.contact-area {
+  height: 650px;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .contact-area {
+    height: auto;
+  }
+}
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%% router=  footer style area start %%%%%%%%%%%%%%%%%%%%%%%%*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+footer {
+  background-color: #1a1a1c;
+  padding: 40px 0px;
+  color: #fff;
+}
+
+.facebook {
+  height: 30px;
+  width: 30px;
 }

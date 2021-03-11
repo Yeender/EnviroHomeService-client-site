@@ -9,9 +9,12 @@
     "lint": "npm add -D prettier && npm add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && npm add -D eslint-config-prettier eslint-plugin-prettier"
   },
   "dependencies": {
+    "emailjs-com": "^2.6.4",
     "next": "10.0.8",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-calendar": "^3.3.1",
+    "react-dom": "17.0.1",
+    "swiper": "^6.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
