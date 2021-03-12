@@ -75,12 +75,12 @@ const SomeRenovations = () => {
 
     const bookingList = book.map((booking) => (
         <div key={booking.id} className="col">
-            <div className="card">
+            <div className="card" style={{background:'#E4E5E9'}}> 
                 <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" src={booking.img} />
                 </div>
                 <div className="card-content">
-                <h5 className="someReno_card-title">{booking.name}</h5>
+                <h5 className="someReno_card-title text-truncate">{booking.name}</h5>
                 <hr/>
                     <span className="card-title activator grey-text text-darken-4">
                         <i className="material-icons right">view more</i>
@@ -97,7 +97,7 @@ const SomeRenovations = () => {
                 </div>
                 <div className="card-reveal">
                     <span className="card-title grey-text text-darken-4">
-                    <h5>{booking.name}<i className="material-icons right">close</i></h5>
+                    <h5 className="text-truncate">{booking.name}<i className="material-icons right">close</i></h5>
                     </span>
                     <hr/>
                     <p>

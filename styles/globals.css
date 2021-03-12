@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: #f7f8fc;
 }
 
 a {
@@ -182,8 +183,6 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 .weDo_cards img {
   width: 50%;
   margin: 0 auto;
-  /* transform: rotate(-90deg); */
-  image-rendering: pixelated;
 }
 
 .weDo_cards h1 {
@@ -408,14 +407,14 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 ****************************************************$$*/
 
 .contact-area {
-  background-color: #66727e;
+  background-color: #e4e5e9;
 }
 
 .input-field input {
-  color: #fff;
+  /* color: #fff; */
 }
 .input-field label {
-  color: #fff;
+  color: black;
 }
 
 /* .input-field textarea {
@@ -424,7 +423,7 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 
 /* label focus color */
 .input-field input[type="text"]:focus + label {
-  color: rgb(255, 255, 255) !important;
+  color: black !important;
   font-weight: bold;
 }
 
@@ -435,13 +434,13 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 
 .contact-submit-btn {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.205);
+  background-color: rgba(35, 165, 3, 0.472);
   color: #fff;
 }
 
 .contact-area {
   height: 650px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 @media (max-width: 600px) {

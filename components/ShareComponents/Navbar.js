@@ -4,7 +4,7 @@ const Navbar = ({ background }) => (
     <div className="navbar-bg">
         <nav style={{ background }} className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand" href="/">
-                <img src="/logo.jpg" alt="" className="logo img-fluid" />
+                <img src="/Logo.png" alt="" className="logo img-fluid" />
             </a>
             <button
                 className="navbar-toggler"

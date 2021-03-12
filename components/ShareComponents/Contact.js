@@ -23,8 +23,8 @@ const Contact = () => {
     return (
         <div className="contact-area d-flex align-items-center">
             <section className="container-xl">
-                <div className="row  align-items-center">
-                    <div className="col-md text-center">
+                <div className="row">
+                    <div className="col-md">
                         <h2>ContactUs</h2>
                         <h5> helpmeottawareno@gmail.com</h5>
 

@@ -7,7 +7,7 @@ const About = () => {
             <section className="container-xl">
                 <div className="row d-flex align-items-center">
                     <div className="col-md">
-                        <h2>About Ottawa Reno</h2>
+                        <h2>About Enviro Home Service</h2>
                         <p>
                             We are Trained professionals who can help you renovate your house. We
                             are a Proud and local Canadian owned company. We offer any cosmetic
