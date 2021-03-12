@@ -113,6 +113,17 @@ $$$ header-area ended $$$ about style start
   padding: 50px 0px;
 }
 
+.showText {
+  transition: 1s;
+}
+
+.showMoreBtn {
+  color: #00cf5a;
+}
+.showLessBtn {
+  color: #00cf5a;
+}
+
 /* .about-area h2 {
 } */
 
@@ -133,6 +144,13 @@ $$$ renovations-area ended $$$ Contact Us-area style start
   border: 2px solid #ffff;
   background-color: #008037;
   color: #fff;
+}
+
+.contact-head_line {
+  font-weight: 700;
+  text-align: center;
+  color: #555151;
+  text-shadow: 2px 2px #a97c59;
 }
 
 /* .

@@ -31,6 +31,7 @@ const Contact = () => {
                         <h6> 1+ (613)-861-1566</h6>
                     </div>
                     <div className="col-md">
+                        <h2 className="contact-head_line">SEND US A MESSAGE</h2>
                         <div className="row">
                             <form onSubmit={sendEmail} className="col s12">
                                 <div className="row mb-0">
