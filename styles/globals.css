@@ -65,13 +65,7 @@ $$$$$$$$ Navbar area style start
     border: 1px solid #fff;
   }
 }
-/* 
-shaker bhai code */
-/* @media only screen and (max-width: 62em) {
-  .navbar-bg {
-    padding: 20px 0px;
-  }
-} */
+
 /***************************************************$$
 $$$ Navbar ended $$$ header-area style start
 ****************************************************$$*/
@@ -311,6 +305,18 @@ $$$ renovations-area ended $$$ Contact Us-area style start
   border-radius: 2px;
   font-weight: 700;
 }
+
+/************************************************************
+***************************Our Service*********************/
+.ourServiceText {
+  text-align: center;
+  color: #44596d;
+  font-size: large;
+}
+/* .ourservice {
+  height: 450px;
+} */
+/**************************our service ends*********************/
 
 /* .
 . 

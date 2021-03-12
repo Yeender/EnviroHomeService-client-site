@@ -70,13 +70,13 @@ const Header = () => {
             </Swiper>
             <style jsx>{`
                 .slider-heder2 {
-                    background: url('https://i.imgur.com/kfMAR6U.jpg') 0 0 / cover;
+                    background: url('https://i.imgur.com/E91pA5Q.jpg') 0 0 / cover;
                     background-repeat: no-repeat;
                     background-position: center;
                     height: 650px;
                 }
                 .slider-heder3 {
-                    background: url('https://i.imgur.com/BcGhBB7.jpg') 0 0 / cover;
+                    background: url('https://i.imgur.com/2ks8Ugx.jpg') 0 0 / cover;
                     background-repeat: no-repeat;
                     background-position: center;
                     height: 600px;
