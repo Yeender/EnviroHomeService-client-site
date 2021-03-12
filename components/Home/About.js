@@ -9,9 +9,10 @@ const About = () => {
                 <div className="row d-flex align-items-center">
                     <div className="col-md">
                         <h2>About Enviro Home Service</h2>
+                        <hr className="aboutHr"/>
 
                         <ShowMore lines={5} more={<h5 className="showMoreBtn">Show more</h5>} less={<h5 className="showLessBtn">Show less</h5>} className="showText">
-                            <p>
+                            <p id="about-texts">
                                 Enviro Home Service is a general contractor company serving the
                                 Capital Region and surrounding areas of Ottawa for nearly two
                                 decades. We provide general contractor services on construction and

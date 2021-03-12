@@ -105,12 +105,37 @@ header {
 . 
  */
 
+/**********************************************************
+ *********some renovations area style area started*********
+ ******************************************************/
+
+.someRenovations {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.someRenoHr {
+  height: 5px;
+  background-color: gray;
+  border-radius: 20px;
+  width: 30%;
+}
+
 /***************************************************$$
-$$$ header-area ended $$$ about style start
+$$$ some renovations ended $$$ about style start
 ****************************************************$$*/
 .about-area {
   height: 650px;
   padding: 50px 0px;
+  text-align: center;
+}
+
+.aboutHr {
+  height: 5px;
+  background-color: #e71c2c;
+  border-radius: 30px;
+  width: 50%;
 }
 
 .showText {
@@ -140,6 +165,7 @@ $$$ header-area ended $$$ about style start
 /***************************************************$$
 $$$ renovations-area ended $$$ Contact Us-area style start
 ****************************************************$$*/
+
 .bookServiceCards {
   border: 2px solid #ffff;
   background-color: #008037;
@@ -184,15 +210,15 @@ $$$ renovations-area ended $$$ Contact Us-area style start
   border: 5px solid #ca718f;
   background-color: #f3f3f3;
   padding: 5px;
-  border-radius: 30%;
+  border-radius: 30px;
+  transition: 0.5s;
 }
 
 /*shabnam CSSS here */
 .weDo_cards:hover {
   background-color: rgb(235, 211, 235);
-  box-shadow: 5px 5px 10px;
+  box-shadow: 0px 5px 10px gray;
   transform: scale(0.9);
-  transition-delay: 5s ease-in-out;
 }
 
 /*shabnam CSSS here */
@@ -441,7 +467,9 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 
 /*Shabnam CSS here */
 .Enviro {
-  border-radius: 30%;
+  border-radius: 20px;
+  border: 5px solid rgb(27, 17, 17);
+  padding: 5px;
 }
 
 /*Shabnam CSS here */
@@ -474,7 +502,7 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 
 .contact-submit-btn {
   width: 100%;
-  background-color: rgba(35, 165, 3, 0.472);
+  background-color: #0e7e3b;
   color: #fff;
 }
 

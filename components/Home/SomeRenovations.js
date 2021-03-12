@@ -73,7 +73,7 @@ const SomeRenovations = () => {
     };
 
 
-    const bookingList = book.map((booking) => (
+    const bookingList = book.slice(0, 5).map((booking) => (
         <div key={booking.id} className="col">
             <div className="card" style={{background:'#E4E5E9'}}> 
                 <div className="card-image waves-effect waves-block waves-light">
@@ -112,6 +112,8 @@ const SomeRenovations = () => {
     return (
         <div className="container-xl">
             <section className="someRenovations-area">
+                <h3 className="someRenovations">Some of Our Renovations</h3>
+                <hr className="someRenoHr" />
                 <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4s justify-content-center">
                     {bookingList}
                 </div>
