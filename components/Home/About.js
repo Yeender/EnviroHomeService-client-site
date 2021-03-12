@@ -22,7 +22,7 @@ const About = () => {
                     <div className="col-md">
                         <img
                             className="img-fluid"
-                            src="https://i.imgur.com/ASOvx5l.jpg"
+                            src="https://i.imgur.com/ngQPTuI.jpg"
                             alt="about img"
                         />
                     </div>

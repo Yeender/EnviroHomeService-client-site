@@ -148,6 +148,126 @@ $$$ renovations-area ended $$$ Contact Us-area style start
 .*/
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%% WeBuildForYou-content-area style area started %%%%%%%%%%%%%%%%%%%%%%%%*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.WeBuildForYou-maine-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px #787581;
+}
+.weDo_cards {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  height: 250px !important;
+  margin-bottom: 50px;
+  border: 5px solid #ca0547;
+  background-color: #f3f3f3;
+  padding: 5px;
+}
+
+.weDo_cards::before {
+  content: "";
+  position: absolute;
+  top: -28.8675px;
+  left: 110px;
+  width: 10;
+  height: 10;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 28.8675px solid #ca0547;
+}
+
+.weDo_cards img {
+  width: 50%;
+  margin: 0 auto;
+  /* transform: rotate(-90deg); */
+  image-rendering: pixelated;
+}
+
+.weDo_cards h1 {
+  font-weight: bold;
+  color: #ca0547;
+  text-shadow: 2px 2px #ffffff;
+}
+
+@media (max-width: 600px) {
+  .weDo_cards {
+    height: auto !important;
+  }
+  .weDo_cards h1 {
+    font-size: 20px;
+  }
+  .weDo_cards::before {
+    left: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .weDo_cards::before {
+    left: 20px;
+  }
+}
+@media (max-width: 315px) {
+  .weDo_cards::before {
+    left: 6px;
+  }
+}
+@media (max-width: 274px) {
+  .weDo_cards::before {
+    left: 0px;
+  }
+}
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+ %%%%%%%%%%%%%%%%%%%% home some renovations style area started %%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.someRenovations-area {
+  /* .. */
+}
+
+.someReno_card-title {
+  font-size: 23px;
+}
+
+.someReno_card-btn {
+  padding: 5px 10px;
+  background-color: #dac5a7;
+  color: rgb(61, 57, 57);
+  /* text-shadow: 1px 1px rgb(255, 255, 255); */
+  border: 1px solid #c52258;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 /* %%%%%%%%%%%%%%%%%%%% router=  bookings_checkout_calendar style area start %%%%%%%%%%%%%%%%%%%%%%%%*/
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
